@@ -5,18 +5,18 @@ author:
       affiliation: University of Queensland
       city: Brisbane
       country: Australia
-      email: fake.author@fake.edu.au
+      email: taana.rose@uq.net.au	
     - name: Eve Klein
       affiliation: University of Queensland
       city: Brisbane
       country: Australia
-      email: aphony@fakemail.com
-    - name: Fred Fialho Leandro Alves Teixeira
+      email: e.klein@uq.edu.au
+    - name: Frederico Fialho Teixeira
       affiliation: University of Queensland
       city: Brisbane
       country: Australia
-      email: aphony@fakemail.com
-author-header: 
+      email: f.frederico@uq.edu.au
+author-header:  T Rose, E Klein, F F Teixeira
 abstract: |
   This paper explores prototyping as an iterative process to create
   virtual reality opera. I am drawing upon Human-Computer Interaction,
@@ -516,15 +516,15 @@ Reflection and refinement
 
 I wrote down the problem statement: The Autumn Ayre aria name text model
 is clashing with the Vase_Amphora \[1\] model; fix this by moving the
-vase asset ✓
+vase asset $$ \checkmark $$
 
-Add audio sources to each vase. ✓
+Add audio sources to each vase. $$ \checkmark $$
 
 Problem statement 2: the *Tilt Brush* text is clashing with the vase
 asset
 
 Fix the scale of Untitled_0 (my FBX model created in *Tilt Brush*) to
-make it bigger so that it does not clash with the vase asset ✓
+make it bigger so that it does not clash with the vase asset $$ \checkmark $$
 
 *Finalisation*
 
