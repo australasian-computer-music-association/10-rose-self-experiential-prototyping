@@ -38,18 +38,19 @@ anonymous: 'false'
 bibliography: 'references'
 papersize: a4
 classoption: 12pt
+secnumdepth: 3
 reference-section-title: 'References'
-year: YYYY
-volume: XX
-number: X
-article-no: X
-date: 'YYYY-MM-DD'
-accepted-date: 'YYYY-MM-DD'
+year: 2022
+volume: 38
+number: 1
+article-no: 6
+date: '2021-12-02'
+accepted-date: '2023-04-14'
 published-date: 'YYYY-MM-DD'
 keywords: Opera, composition, technology, music, sound implementation, spatial sound, virtual reality, human-computer interaction, computer music.
 ---
 
-## Introduction
+# Introduction
 
 In this paper, my VR opera *Artemis* is examined in detail via
 discussions of effective VR techniques and implementation. I consider
@@ -65,7 +66,7 @@ comfortable and safe VR experiences for users.
 *Unity3D*, a platform for 3D world creation, is utilised to create an
 Oculus VR version of the opera work for the *Oculus Quest*. *Unity
 Technologies* promote their product by describing how virtual reality
-heightens a creator\'s creativity in relating a narrative. They state
+heightens a creator's creativity in relating a narrative. They state
 that the creative opportunities are endless when a creator realises
 their imagination with the *Unity3D* canvas (Unity Technologies, 2020).
 The creator designs a world, which enhances the word-painting of each
@@ -79,23 +80,23 @@ This paper will discuss the techniques that were used to increase the
 effectiveness of the extended reality opera prototyping, including 3D
 spatial sound as a cheap UI aid for graphics trade-off (Brenda Laurel,
 Atari research, 1980s). I am employing 3D spatial sound in my Oculus
-prototype development, by using the *FMOD* \'3D object Spatializer\'
+prototype development, by using the *FMOD* '3D object Spatializer'
 plugin on each audio event.
 
-VR painting software for AR content creation and VR asset creation
+<!-- VR painting software for AR content creation and VR asset creation -->
 
 I have experimented with painting the virtual environment models for the
 Oculus VR experience in *Tilt Brush* and importing my *Tilt Brush*
 painting into *Unity3D* with Poly, editing the virtual world in
 *Unity3D* and distributing it on the *Oculus Quest* to be experienced
 with the *Oculus* Link throughout all prototyping. The learnings that I
-am presenting in thos paper include self-experiential prototyping
+am presenting in this paper include self-experiential prototyping
 methodologies and models, as well as the creative processes employed as
 a composer-designer. These learnings may be useful for
 composer-designers who are looking to create their own extended reality
 productions.
 
-## Methods
+# Methods
 
 I drew together the theories proposed by Schell (2020) to create my
 models for self-experiential prototyping (see figure 5 and figure 6). I
@@ -107,7 +108,7 @@ describe how this is achieved by building lots of fast and dirty small
 prototypes (Schell, 2020), this technique was implemented throughout
 2020 and 2021 to create the first iterations of the opera *Artemis*.
 
-Prototype creation
+<!-- Prototype creation -->
 
 For each prototype iteration, I strived to find any barriers to the
 enjoyment of the VR experience, such as inaccurate head tracking in the
@@ -123,13 +124,13 @@ inspired by music and mathematical formula visualisations to create
 architectural structures (Xenakis, 1992). I am inspired by visuals to
 create the music. I fuse virtual visual and sonic elements to create an
 opera set in Ancient Greece. Xenakis created a light bulb and laser work
-in \'Formalized Music\' by employing the relationship between light and
+in _Formalized Music_ by employing the relationship between light and
 sound successfully, as each light bulb is a different frequency and
 pitch in the musical composition. In prototyping *Artemis*, the distance
 proximity of the spatialised audio in the Oculus VR version employs the
 relationship between light (visuals) and sound.
 
-#### The lens of immersive opera 
+## The lens of immersive opera
 
 Composing for a medium such as virtual reality and augmented reality
 entails creating media-based immersion by creating set designs similar
@@ -138,19 +139,19 @@ version the additional staging elements are dry leaves collected and
 placed in the space, tactile sensory elements are incorporated to
 immerse the audience in the experience. Dry leaves are placed on a
 plinth and add the tactile and sonic aspects of holding autumn leaves
-whilst listening to the \'Autumn Ayre Aria\'.
+whilst listening to the 'Autumn Ayre Aria'.
 
-Whilst participants are in the spring environment listening to \'Licht
-und Liebe\', sprayed rose water adds the sensory smell of roses. In the
-summer virtual reality environment for \'Mi amor la luna\', a fan
+Whilst participants are in the spring environment listening to 'Licht
+und Liebe', sprayed rose water adds the sensory smell of roses. In the
+summer virtual reality environment for 'Mi amor la luna', a fan
 blowing warm air is placed in front of participants to create the
-immersive experience of being in a hot summer environment. In \'Winter
-Duet\' particles of paper confetti are dropped onto the participant to
+immersive experience of being in a hot summer environment. In 'Winter
+Duet' particles of paper confetti are dropped onto the participant to
 create the tactile experience of falling snow. As the offboarding
 activity the audience member may take home any of these objects
 alongside their paper cut out onboarding object.
 
-#### The lens of composer as researcher: themes in world creation, themes in music
+## The lens of composer as researcher: themes in world creation, themes in music
 
 I composed the arias and duets using *Finale*; the scores were rehearsed
 and performed by the three performers, the work recorded in The Nickson
@@ -160,41 +161,17 @@ recording of the entire opera into 4 parts and mapped each composition
 to a different vase for the Oculus version, essentially mapping audio to
 objects as sound sources.
 
-![A screenshot of a computer Description automatically generated with
-medium confidence](./media/image1.png){width="4.978008530183727in"
-height="2.514925634295713in"}
+![Vase Amphora and audio source set up for Licht und Liebe screenshot](./media/image1.png){ width=50% }
 
-Vase Amphora and audio source set up for Licht und Liebe screenshot
+![Vase Hydria and audio source set up for the Winter duet screenshot](./media/image2.png){ width=50% }
 
-![A screenshot of a computer Description automatically generated with
-medium confidence](./media/image2.png){width="4.947761373578302in"
-height="2.487036307961505in"}
+![Vase VoluteKrater and Audio source set up for Mi amor la luna screenshot](./media/image3.png){ width=50% }
 
-Vase Hydria and audio source set up for the Winter duet screenshot
+![Cuckoo foley screenshot](./media/image4.png){ width=50% }
 
-![A screenshot of a computer Description automatically generated with
-medium confidence](./media/image3.png){width="4.358208661417323in"
-height="2.196003937007874in"}
+![Artemis *Unity3D* skybox screenshot](./media/image5.PNG){ width=50% }
 
-Vase VoluteKrater and Audio source set up for Mi amor la luna screenshot
-
-![A screenshot of a video game Description automatically
-generated](./media/image4.png){width="4.3461668853893265in"
-height="2.201492782152231in"}
-
-Cuckoo foley screenshot
-
-![A picture containing outdoor, sky, snow, mountain Description
-automatically generated](./media/image5.PNG){width="3.201492782152231in"
-height="2.676803368328959in"}
-
-Artemis *Unity3D* skybox screenshot
-
-![A screenshot of a video game Description automatically
-generated](./media/image6.PNG){width="3.971130796150481in"
-height="1.9626870078740157in"}
-
-Game object hierarchy set up screenshot
+![Game object hierarchy set up screenshot](./media/image6.PNG){ width=50% }
 
 I wrote each corresponding piece during this process, drawing upon the
 visual aspects and utilising word-painting, highlighting the different
@@ -215,13 +192,11 @@ definitions of XR art and games are split in Screen Australia, thus I am
 drawing inspiration from video games, and XR art experiences are
 leveraged for *Artemis*.
 
+<!-- ![](./media/image5.PNG){width="3.216418416447944in"
+height="2.689283683289589in"} -->
+
 The Oculus version of *Artemis* entails users roaming a plane containing
-a Greek temple and four vases:
-
-![A picture containing outdoor, sky, snow, mountain Description
-automatically generated](./media/image5.PNG){width="3.216418416447944in"
-height="2.689283683289589in"}
-
+a Greek temple and four vases (see Figure 6).
 Within the context of a non-linear opera, objects are interactable, and
 when the audience member touches an object, a fragment of the music is
 heard, the user controls how it is played back. The user is a live sound
@@ -247,7 +222,6 @@ real hands; this is called hand presence. Virtual black hands have been
 created for hand tracking. 3D sound, spatial imagery and immersive 3D
 sound create an intimate sense of being there and aid in navigating
 spatially (Spillers, 2017).
-
 VR development is examined in detail via discussions of effective VR
 techniques and implementation.
 
@@ -305,78 +279,72 @@ relationship to the design processes helped me keep track of any changes
 that needed to be made to make better iterations.
 
 Reflections upon lessons were journaled systematically. For example, one
-journal entry described the learnings for prototyping \"learnt from
+journal entry described the learnings for prototyping "learnt from
 Michelle Brown that the most stable *Unity3D* version for VR development
-is 2019.4.20f1\".
+is 2019.4.20f1".
 
 The steps employed to create successful builds were journaled, the
 entries included the elements used in each prototype. For example,
 learning which *Unity3D* software workflow works best for prototyping:
-\"including one of the *Artemis* rehearsal mp3 files. Firstly building
+"including one of the *Artemis* rehearsal mp3 files. Firstly building
 the models and text in *Tilt Brush*, then importing these fbx model
 files into *Unity*3D utilising tilt-poly-toolkit-v1.0.4.unitypackage
 Releases · mwellck/tilt-poly-toolkit-unity (github.com).This prototype
 is a stationary experience with one audio source playing as the
-soundtrack, a starry skybox complements the *Tilt Brush* models\".
+soundtrack, a starry skybox complements the *Tilt Brush* models".
 
 The aspects to be created and implemented in the following prototyping
 session were subsequently journaled. For example, one journal entry
 described what the next steps would be in my iterative loop prototyping
-\"Next up will be creating head tracking in the experience and mapping
+"Next up will be creating head tracking in the experience and mapping
 different audio segments to different objects in the *Unity3D*
-project\".
+project".
 
-DIARY ENTRIES:
+## Diary entries
 
-VR Test 15 April
+### VR Test 15 April
 
-![](./media/image7.png){width="4.992537182852144in"
-height="2.5117563429571304in"}
+![Screenshot from VR Test 15 April](./media/image7.png){ width=80% }
 
-Idea generation
+#### Idea generation
 
 I added audio sources to the game object cubes in Unity to correspond to
 high-level sounds from each season:
 
-1\. Winter is a white cube; the audio source is \'Waves_Wind.\'
+1. Winter is a white cube; the audio source is 'Waves_Wind.'
+2. Spring is a green cube; the audio source is 'cuckoo_bird_call.'
+3. Summer is a yellow cube; the audio source is 'EQed Bees and Cicadas (Summer)'.
+4. Autumn is a red cube; the audio source is 'SFX leaves falling for Autumn of Artemis'.
 
-2\. Spring is a green cube; the audio source is \'cuckoo_bird_call.\'
+I utilised spatial blend: 3D, logarithmic, maximum Distance: 50.
 
-3\. Summer is a yellow cube; the audio source is \'EQed Bees and Cicadas
-(Summer)\'.
-
-4\. Autumn is a red cube; the audio source is \'SFX leaves falling for
-Autumn of Artemis\'.
-
-I utilised spatial blend: 3D, logarithmic, Maximum Distance: 50.
-
-Initial development
+#### Initial development
 
 Problem statement 1: Can the user pick up the cubes and hear the
 corresponding audio file?
 
-Reflection and refinement
+#### Reflection and refinement
 
-The build was successful; however, the \'ControllerModels\' VR scene
+The build was successful; however, the 'ControllerModels' VR scene
 sees you inside a 3D cube/room, which was quite claustrophobic and
 different from expected. I made the top cube with wooden material in
 *Unity3D*; for the second test, I am testing it again with the top cube
 (which is essentially the ceiling) as an open skybox material so that
 the user in the VR experience does not feel so boxed in.
 
-*Finalisation*
+#### Finalisation
 
 This test is much better as the sky is expansive, the 3D sound is
 working well.
 
-*Testing, review and conclusions*
+#### Testing, review and conclusions
 
-I am changing the 3D \'grabbles\' game objects to have different
+I am changing the 3D 'grabbles' game objects to have different
 colours. A key learning from this prototype is the limitation of the
-\'ControllerModels\' VR Oculus Integration scene, as you are inside a
+'ControllerModels' VR Oculus Integration scene, as you are inside a
 cube, which does not afford for my open-world VR experience plan.
 Therefore, next, I am trying my custom-built scene utilising the
-\'OVRCameraRig\' \'Plane\' and \'OVRPlayerController\' game objects.
+'OVRCameraRig' 'Plane' and 'OVRPlayerController' game objects.
 There is a Greek temple asset and Greek vase assets, the vase assets
 trigger audio. There are four trees; I have changed their material to
 correspond to each season, each tree is at a different corner of the
@@ -397,197 +365,164 @@ the game aesthetic I was going for, as I wanted to use vases rather than
 cubes to create a more authentic Ancient Greek game world, this was the
 conclusion to take into the next prototype.
 
-20 April Prototype
+### 20 April Prototype
 
-Initial development
+#### Initial development
 
 I built one green plane, added four Greek vase assets at each corner of
 the plane, a Greek Skybox, an Artemis Temple in the middle of the plane,
 and the user must walk toward the different vases to hear the four
 different arias and duets.
 
-Reflection and refinement
+#### Reflection and refinement
 
 Head tracking is not set up correctly in *Unity3D*.
 
-*Finalisation*
+#### Finalisation
 
 I built the scene in *Unity3D* and then put on the Oculus Quest headset
 to do self-experiential testing.
 
-Testing, review and conclusions
+#### Testing, review and conclusions
 
 While testing, the VE moved with my head; a key learning was that the
 head tracking was not set up correctly. The conclusion to take into the
 next prototyping stage was that I needed to re-read the Oculus developer
 online manual regarding head-tracking.
 
-21 April Prototyping Test 1
+### 21 April Prototyping Test 1
 
-![A screenshot of a computer Description automatically generated with
-medium confidence](./media/image8.png){width="4.984002624671916in"
-height="2.5074628171478563in"}
+![Screenshot from 21 April Prototyping Test 1](./media/image8.png){ width=80% }
 
-Initial development
+#### Initial development
 
 I wrote down the problem statement: when I move my head in the Oculus
 Quest headset, the scene moves as well.
 
-*Reflection and refinement*
+#### Reflection and refinement
 
 To solve this problem, I looked at the elements in the VR demo scene
-\'ControllerModels\' and compared it to my custom-built project. I
-realised that I had an extra \'OVRCameraRig\', which I did not need, as
-the \'OVRPlayerController\' already has a child OVRCameraRig included.
-
-I tested the problem by removing the \'OVRCameraRig\' from the hierarchy
+'ControllerModels' and compared it to my custom-built project. I
+realised that I had an extra 'OVRCameraRig', which I did not need, as
+the 'OVRPlayerController' already has a child OVRCameraRig included.
+I tested the problem by removing the 'OVRCameraRig' from the hierarchy
 and building the scene.
 
-Finalisation
+#### Finalisation
 
 It works, and I can successfully walk around with head tracking and
 locomotion; the 3D sounds work well, the VE is realistic with the Greek
 skybox filled with snow-covered hills and blue skies mottled with
 clouds.
 
-*Testing, review and conclusions*
+#### Testing, review and conclusions
 
-Problem statement:
-
-I edited the scene for testing to have the temple at a realistic scale
+Problem statement: I edited the scene for testing to have the temple at a realistic scale
 size; it is best to have the plane at 2 x 2 x 2. To take into my next
 prototype, I moved the vases closer to the temple. A key learning from
-this prototype was that the vases are too far apart; the plane\'s 3 x 3
+this prototype was that the vases are too far apart; the plane's 3 x 3
 x 3 scale is a bit large for a room-scale experience; so, I will reduce
 it to 1 x 1 x 1 and test this smaller scale. However, 1 x 1 x 1 may
 induce vertigo as the plane may be too small with the Greek Mountain
 skybox for people with a fear of heights; the conclusion to take into
 the next prototyping phase is to try out this problem.
 
-21 April Prototyping Test 2
+### 21 April Prototyping Test 2
 
-Initial development
+#### Initial development
 
 I wrote down the problem Statement: the audio is not reactive.
 
-Reflection and refinement
+#### Reflection and refinement
 
 To fix the problem statement, I looped the audio source, made the audio
 source setting: Spatial Blend 3D and Maximum Distance 50.
 
-Finalisation
+#### Finalisation
 
 I moved the vases to match up with the name of each aria which I painted
 in running cursive in Tilt Brush.
 
-*Testing, review and conclusions*
+#### Testing, review and conclusions
 
 A key learning was matching arias with visual models to create
 audio-visual cohesion in the virtual environment.
-
 The user will then walk towards each vase and the corresponding text to
 hear each of the four arias/duets playback; the audio sources are mapped
 to the following:
 
-· Licht und Liebe (duet) is mapped to Vase_Amphora
+- Licht und Liebe (duet) is mapped to Vase_Amphora
+- Mi amor la luna (aria) is mapped to Vase_Volutekrater
+- Autumn Ayre (aria) is mapped to Vase_Amphora \[1\]
+- Winter (duet) is mapped to Vase_Hydria
 
-· Mi amor la luna (aria) is mapped to Vase_Volutekrater
+### 21 April Prototyping Test 3
 
-· Autumn Ayre (aria) is mapped to Vase_Amphora \[1\]
+![Screenshot from 21 April Prototyping Test 3](./media/image9.png){ width=80% }
 
-· Winter (duet) is mapped to Vase_Hydria
+#### Initial development
 
-21 April Prototyping Test 3
+Test 3.1: Whilst in the experience it is enjoyable.
 
-![A picture containing text, monitor, screenshot, electronics
-Description automatically
-generated](./media/image9.png){width="4.628005249343832in"
-height="2.3283584864391953in"}
+#### Reflection and refinement
 
-Initial
+I wrote down the problem statement: The Autumn Ayre aria name text model is clashing with the Vase_Amphora \[1\] model; fix this by moving the vase asset (done).
+Add audio sources to each vase (done).
 
-Initial development
+Problem statement 2: the *Tilt Brush* text is clashing with the vase asset
+Fix the scale of Untitled_0 (my FBX model created in *Tilt Brush*) to make it bigger so that it does not clash with the vase asset (done).
 
-*Test 3.1*
+#### Finalisation
 
-Whilst in the experience it is enjoyable.
-
-Reflection and refinement
-
-I wrote down the problem statement: The Autumn Ayre aria name text model
-is clashing with the Vase_Amphora \[1\] model; fix this by moving the
-vase asset $$ \checkmark $$
-
-Add audio sources to each vase. $$ \checkmark $$
-
-Problem statement 2: the *Tilt Brush* text is clashing with the vase
-asset
-
-Fix the scale of Untitled_0 (my FBX model created in *Tilt Brush*) to
-make it bigger so that it does not clash with the vase asset $$ \checkmark $$
-
-*Finalisation*
-
-*Test 3.2*
-
-It looks excellent scale-wise while in the experience in the *Oculus
-Quest* headset.
-
+Test 3.2: It looks excellent scale-wise while in the experience in the *Oculus
+Quest* headset. 
 Problem statement: the user begins the experience in the middle of a
 tree model. I fixed this by moving the OVRPlayerController asset to the
 middle of the vase area to begin the experience.
 
-*Test 3.3*
-
-Problem statement: The user starts in a position that is still too close
+Test 3.3 Problem statement: The user starts in a position that is still too close
 to the tree models. I moved the OVRPlayerController again. I added a
 high-level audio source of cuckoo bird calls as ambient environment
 foley for the experience. I also added the audio recording from one of
 the opera rehearsals as a mock-up until the complete opera is recorded.
 
-*Test 3.4*
-
-Everything is working as it should; it is a realistic interactive VR
+Test 3.4: Everything is working as it should; it is a realistic interactive VR
 experience.
 
-*Testing, review and conclusions*
+#### Testing, review and conclusions*
 
-The key learning from these tests to take into the next prototype is:
+<!-- The key learning from these tests to take into the next prototype is: -->
 
-1\. Problem statement: there are no virtual hand controllers/gloves in
+Problem statement: there are no virtual hand controllers/gloves in
 the experience; these shall be added in the next prototype, as having
 virtual hands increases immersion in VR experiences (Interaction Design
 Foundation, 2021).
 
-17 May prototype
+### 17 May prototype
 
-![A picture containing text, monitor, indoor, wall Description
-automatically
-generated](./media/image10.jpeg){width="3.3283584864391953in"
-height="2.4964534120734907in"}
+![Screenshot from 17 May prototype](./media/image10.jpeg){ width=80% }
 
-Initial development
+#### Initial development
 
 I implemented the virtual hands successfully after the following
-troubleshooting:
-
-Problem statement 1: I found that the virtual hands face the user\'s
+troubleshooting.
+Problem statement 1: I found that the virtual hands face the user's
 body upwards over the physical forearm; thus, they face the wrong way.
 To rectify this issue, I followed the steps outlined on the *Oculus*
 developer's website *Hand Tracking in Unity Oculus Developers* to set up
 hand tracking accurately.
 
-*Reflection and refinement*
+#### Reflection and refinement
 
 Problem statement 2: One feels as if they are hovering in space as I
 changed the plane ratio to 1x1x1; thus, I went back into *Unity3D* and
 moved the OVRPlayer game object to the centre of the plane to rectify
 this issue.
 
-Finalisation
+#### Finalisation
 
-Problem statement 3: I tried using a dial from the \'VR Buttons and
-Levers\' pack from the Unity asset store; however, this encountered
+Problem statement 3: I tried using a dial from the 'VR Buttons and
+Levers' pack from the Unity asset store; however, this encountered
 build errors due to compiler errors in the scripting. To rectify this
 issue, I deleted the asset package and mapped the synth instrumental to
 the trees.
@@ -596,7 +531,7 @@ Problem statement 4: I am not sure how to create an audio switch
 container in *FMOD*. Despite googling resources, I will need to get
 expert advice.
 
-*Testing, review and conclusions*
+#### Testing, review and conclusions
 
 A key learning from this prototype to take into the next was: problem
 statement 5 the *FMOD* aria events may be clashing sonically with one
@@ -612,37 +547,27 @@ I also learnt to make sure that the *SteamVR* app is open and running on
 the Alienware to track and play the experience on the Quest untethered
 successfully.
 
-YOUTUBEVR ARTEMIS
+### YouTubeVR Artemis
 
 I painted in the 360-degree VR environment in *Tilt Brush* for VR for
 the YouTubeVR version of *Artemis*. In *iteration #3* of the *YouTubeVR*
-experience I painted the tree of life to represent Artemis' life:
+experience I painted the tree of life to represent Artemis' life (Figure 11). 
 
-![A picture containing dark, lit Description automatically
-generated](./media/image11.png){width="3.025071084864392in"
-height="1.6791054243219599in"}
+![The tree of life representing Artemis' life in YouTubeVR Artemis](./media/image11.png){ width=50% }
 
 Colour changes were added to the render in *Adobe Premiere Pro* to add
-variation to the footage for each aria and duet.
-
-With blue tones used for winter:
-
-![](./media/image12.png){width="2.9535301837270342in"
-height="1.7537314085739282in"}
-
-I made the footage black and white to highlight the nightscape for the
-aria to the moon 'Mi amor la luna':
-
-![](./media/image13.png){width="2.8656714785651793in"
-height="1.6120997375328083in"}
-
+variation to the footage for each aria and duet. 
+Blue tones were used for winter (Figure 12), I made the footage black and white to highlight the nightscape for the aria to the moon 'Mi amor la luna' (Figure 13), and 
 I added orange tones to the footage in *Adobe* *Premiere Pro* for
-autumn:
+autumn (Figure 14).
 
-![](./media/image14.png){width="2.8805971128608925in"
-height="1.6204965004374454in"}
+![YouTubeVR Artemis with blue tones used for winter](./media/image12.png){ width=50% }
 
-AR ARTEMIS
+![YouTubeVR Artemis: the nightscape for the aria to the moon 'Mi amor la luna'](./media/image13.png){ width=50% }
+
+![YouTubeVR Artemis with orange tones for autumn ](./media/image14.png){ width=50% }
+
+### AR Artemis
 
 This section looks at the AR performance work, working with a
 mezzo-soprano operatic performer, an operatic tenor performer and
@@ -656,18 +581,17 @@ printed out and stuck on music stands for the forthcoming opera
 performance at BLOOM Festival. The target images overlay moving virtual
 images which are triggered with the spectators *EyeJack* mobile AR app:
 
-![](./media/image15.png){width="2.2350546806649167in"
-height="2.275622265966754in"}
+![Images and QR codes from AR Artemis](./media/image15.png){ width=50% }
 
-## Discussion
+# Discussion
 
-People are increasingly making virtual operas, and opera\'s engagement
+People are increasingly making virtual operas, and opera's engagement
 with technology has expanded to match this interest. In the Australian
 context, the recommendations put forth in The National Opera Review
 (2016) highlight the current opera climate, namely, subsection 7.4,
-\"Support the presentation of innovative works in collaboration with
-festivals\" (p. 54), and subsection 7.5, \"Increase the use of digital
-technology for innovation\" (p. 55). This need for increased digital
+"Support the presentation of innovative works in collaboration with
+festivals" (p. 54), and subsection 7.5, "Increase the use of digital
+technology for innovation" (p. 55). This need for increased digital
 innovation in opera led to the operatic industry expressing increased
 interest in immersive projection, XR, and other digital media experience
 creation. The digital staging of opera works is increasing, with *The
@@ -686,7 +610,7 @@ technologies on the process of opera creation from a composer's
 perspective.
 
 The implementation of these new workflows is documented through the
-design of models such as figure 5 and figure 6; these are visualisations
+design of models such as Figure 5 and Figure 6; these are visualisations
 of the same process outlined via two different lenses to explain how
 self-experiential prototyping methodologies can guide composer-makers to
 develop new works. Figures 5 and 6 model the workflows for designing
@@ -712,28 +636,24 @@ software prototype and write down problem statement 2 to document what
 needs to be fixed (3c). The maker then moves between this step and the
 next by going into *Unity3D* and fixing the error (problem statement) in
 the backend of the software; after fixing this error to the best of the
-maker\'s ability, the maker puts on the VR headset and undertakes solo
+maker's ability, the maker puts on the VR headset and undertakes solo
 testing to see if the error was successfully fixed. The maker then moves
 from this step to the final step of getting expert advice by 'building'
 the *Unity3D* project and getting an expert to try out the VR experience
 in a headset such as *Oculus Quest 1*. Figure 5 is refined into the
 cyclical model of figure 6.
 
-![Diagram Description automatically
-generated](./media/image16.png){width="6.290785214348206in"
+![*Figure 5.* A structured and sequential self-experiential prototyping model of the prototyping process steps for Oculus prototyping.](./media/image16.png){width="6.290785214348206in"
 height="3.9051891951006126in"}
 
-*Figure 5.* A structured and sequential self-experiential prototyping
-model of the prototyping process steps for Oculus prototyping.
-
 Figure 6 details my journey through each stage of self-experiential
-prototyping. Smith and Dean\'s (2009) model states that academic
+prototyping. Smith and Dean's (2009) model states that academic
 research and creative practice are interwoven aspects of knowledge
 creation. Figure 6 emphasises the cyclical nature via arrows; this
-relates to Smith and Dean\'s Iterative Cyclic web model, in which Smith
+relates to Smith and Dean's Iterative Cyclic web model, in which Smith
 and Dean (2009) state that practice and research occur in a continuous
 cycle. This is seen in Figure 6; whereby continuous knowledge creation
-and testing encompasses the research projects\' fundamental continuous
+and testing encompasses the research projects' fundamental continuous
 cyclic nature. I have applied this premise throughout my research
 project, as the creative practice results in new models and processes
 for future research by other makers and scholars.
@@ -758,20 +678,19 @@ down a second problem statement (step 4), then move between steps 4 and
 5 by going back into the software and fixing the error identified in
 problem statement 2. Then the maker moves to step 5 of solo testing.
 Once the maker is happy with the fixed problem statements, they can
-\'build\' the experience in *Unity3D* and ask an expert to watch the
+'build' the experience in *Unity3D* and ask an expert to watch the
 experience on a VR headset. Then the maker requests the expert to give
 constructive feedback on elements that need to be fixed. This
 constructive feedback is then used as a new problem statement for the
 next iteration of testing and leads to step 1.
 
-![Diagram Description automatically
-generated](./media/image17.png){width="5.128836395450569in"
+![*Figure 6.* Doing self-experiential prototyping: an iterative cyclic
+model](./media/image17.png){width="5.128836395450569in"
 height="3.6268657042869643in"}
 
-*Figure 6.* Doing self-experiential prototyping: an iterative cyclic
-model
+<!-- TODO: relabel this as a different number -->
 
-## Video and audio examples
+# Video and audio examples
 
 *Artemis* entails users being immersed in 360-degree environments, which
 correspond to the theme of each aria or duet. By creating and making
@@ -781,23 +700,11 @@ in my perspective from the get-go by prototyping in VR in real-time;
 this results in a cyclical artistic practice process in action formula
 for creating new opera work. 
 
-Audio implementation in the Oculus version of Artemis:
+- Audio implementation in the Oculus version of Artemis DOI: 10.5281/zenodo.5748640 URL: <https://zenodo.org/record/5748640#.YahLNb1BxQI>
+- Artemis DOI: 10.5281/zenodo.5748649 URL: <https://zenodo.org/record/5748649#.YahO0L1BxQI>
+- Artemis Mi amor la luna VR: DOI: 10.5281/zenodo.5748659 <https://zenodo.org/record/5748659#.YahTJL1BxQI>
 
-DOI: 10.5281/zenodo.5748640
-
-<https://zenodo.org/record/5748640#.YahLNb1BxQI>
-
-Artemis DOI: 10.5281/zenodo.5748649
-
-<https://zenodo.org/record/5748649#.YahO0L1BxQI>
-
-Artemis Mi amor la luna VR
-
-DOI: 10.5281/zenodo.5748659
-
-<https://zenodo.org/record/5748659#.YahTJL1BxQI>
-
-### Discussion
+## Discussion
 
 The AR and VR environments are interactive with the Oculus VR work
 employing *Oculus Quest* hand tracking, the *YouTubeVR* version using
@@ -824,6 +731,10 @@ being transported into a digital opera world.
 
 # References
 
+```{=latex}
+\begin{hangparas}{1.5em}{1}
+```
+
 Laurel, B. (2013). *Computers as theatre*. Addison-Wesley.
 
 Peters, E., Heijligers, B., Kievith, J., Razafindrakoto, X., Van
@@ -842,21 +753,21 @@ research, research-led practice in the creative arts*, 1-38.
 Spillers, F. (2017, October). Soundspace: toward accessible spatial
 navigation and collaboration for blind users. In *Proceedings of the 5th
 Symposium on Spatial User Interaction* (pp. 158-158). Retrieved from:
-<https://dl.acm.org/doi/pdf/10.1145/3131277.3134921?casa_token=iLl49Lp8mPQAAAAA%3Aq9wDHle_XuWzAxMaC5BFSTR1VpcupfZmxMrG-uFh2Lys2-kpEy6T5tBVjeWxWRltKhiXBOH1yGfT>
+<https://doi.org/10.1145/3131277.3134921>
 
 *The National Opera Review.* (2016). Retrieved October 2, 2021, from
-<https://www.arts.gov.au/have-your-say/national-opera-review#:~:text=The%20Minister%20for%20the%20Arts%20released%20the%20National,the%20continued%20artistic%20vibrancy%20of%20Australian%20opera%20companies>.
+<https://www.arts.gov.au/have-your-say/national-opera-review>.
 
 Google Tilt Brush \[Computer software\]. (2022). Retrieved from
 <https://store.steampowered.com/app/327140/Tilt_Brush/>
 
-Unity Technologies. (2020). Retrieved from
+Unity Technologies. (2020). Retrieved from <https://unity.com/>
 
-<https://unity.com/>
-
-Unity3D \[Computer software\]. (2022). Retrieved from
-
-<https://unity3d.com/get-unity/download>
+Unity3D \[Computer software\]. (2022). Retrieved from <https://unity3d.com/get-unity/download>
 
 Xenakis, I. (1992). *Formalized music: thought and mathematics in
 composition* (No. 6). Pendragon Press.
+
+```{=latex}
+\end{hangparas}
+```
