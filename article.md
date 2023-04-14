@@ -175,14 +175,12 @@ objects as sound sources.
 
 I wrote each corresponding piece during this process, drawing upon the
 visual aspects and utilising word-painting, highlighting the different
-environmental factors of each season. Rationale: Seasons reflect nature,
-and the environment is a medium; this theme is realised visually and
-sonically in the compositional sonic and virtual worlds created.
+environmental factors of each season.
+The works reflected the following rationale, scale and scope:
 
-Scale: idea transferred across mediums.
-
-Scope: Performance design is vital with technologies. Virtual reality is
-a core component of the story. Virtual reality is a playful element.
+- **Rationale:** Seasons reflect nature, and the environment is a medium; this theme is realised visually and sonically in the compositional sonic and virtual worlds created.
+- **Scale:** idea transferred across mediums.
+- **Scope:** Performance design is vital with technologies. Virtual reality is a core component of the story. Virtual reality is a playful element.
 
 *Artemis* comprises arias and duets utilising original German, English
 and Spanish libretto, with the mezzo-soprano as the central character.
@@ -300,7 +298,7 @@ described what the next steps would be in my iterative loop prototyping
 different audio segments to different objects in the *Unity3D*
 project".
 
-## Diary entries
+## Journal entries
 
 ### VR Test 15 April
 
