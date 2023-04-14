@@ -545,7 +545,7 @@ I also learnt to make sure that the *SteamVR* app is open and running on
 the Alienware to track and play the experience on the Quest untethered
 successfully.
 
-### YouTubeVR Artemis
+## YouTubeVR Artemis
 
 I painted in the 360-degree VR environment in *Tilt Brush* for VR for
 the YouTubeVR version of *Artemis*. In *iteration #3* of the *YouTubeVR*
@@ -565,7 +565,7 @@ autumn (Figure 14).
 
 ![YouTubeVR Artemis with orange tones for autumn ](./media/image14.png){ width=50% }
 
-### AR Artemis
+## AR Artemis
 
 This section looks at the AR performance work, working with a
 mezzo-soprano operatic performer, an operatic tenor performer and
@@ -580,6 +580,43 @@ performance at BLOOM Festival. The target images overlay moving virtual
 images which are triggered with the spectators *EyeJack* mobile AR app:
 
 ![Images and QR codes from AR Artemis](./media/image15.png){ width=50% }
+
+## Video and audio examples
+
+*Artemis* entails users being immersed in 360-degree environments, which
+correspond to the theme of each aria or duet. By creating and making
+assets and models of the visual experience in *Tilt Brush*, it gives
+deeper meaning to the creative process by creating in VR for VR. I bring
+in my perspective from the get-go by prototyping in VR in real-time;
+this results in a cyclical artistic practice process in action formula
+for creating new opera work. 
+
+- Audio implementation in the Oculus version of Artemis DOI: 10.5281/zenodo.5748640 URL: <https://zenodo.org/record/5748640#.YahLNb1BxQI>
+- Artemis DOI: 10.5281/zenodo.5748649 URL: <https://zenodo.org/record/5748649#.YahO0L1BxQI>
+- Artemis Mi amor la luna VR: DOI: 10.5281/zenodo.5748659 <https://zenodo.org/record/5748659#.YahTJL1BxQI>
+
+The AR and VR environments are interactive with the Oculus VR work
+employing *Oculus Quest* hand tracking, the *YouTubeVR* version using
+head-tracking, and the AR work utilising mobile interaction on the
+*EyeJack* AR app. These different approaches cater for world building
+(VR) versus place making (AR). Each version is interactive in a
+different way, the *YouTubeVR* version is interactive through its
+head-tracking which changes according to where the audience member looks
+and audience members are encouraged to walk around the space to change
+their perception of the space; the impact of this is a feeling of
+immersivity, the effect is a total feeling of being there. The *Oculus*
+version is more interactive than the *YouTubeVR* version, as it builds
+upon it; head-tracking is used in both, however hand-tracking is only
+used in the Oculus version. The impact is that the audience member
+controls the playback order of different areas triggered by the
+proximity of the hand-tracking to each of the four vases in the Oculus
+version, the effect is a gamified musical experience for the audience
+member. The AR version is interactive through the singer physically
+guiding the audience member into the performance hall and prompting them
+to scan a poster to download the AR app, the impact is a smooth
+transition into the live AR experience, the impact is a feeling of
+immersiveness in a hybrid augmented performance world, the effect is
+being transported into a digital opera world.
 
 # Discussion
 
@@ -688,44 +725,7 @@ height="3.6268657042869643in"}
 
 <!-- TODO: relabel this as a different number -->
 
-# Video and audio examples
-
-*Artemis* entails users being immersed in 360-degree environments, which
-correspond to the theme of each aria or duet. By creating and making
-assets and models of the visual experience in *Tilt Brush*, it gives
-deeper meaning to the creative process by creating in VR for VR. I bring
-in my perspective from the get-go by prototyping in VR in real-time;
-this results in a cyclical artistic practice process in action formula
-for creating new opera work. 
-
-- Audio implementation in the Oculus version of Artemis DOI: 10.5281/zenodo.5748640 URL: <https://zenodo.org/record/5748640#.YahLNb1BxQI>
-- Artemis DOI: 10.5281/zenodo.5748649 URL: <https://zenodo.org/record/5748649#.YahO0L1BxQI>
-- Artemis Mi amor la luna VR: DOI: 10.5281/zenodo.5748659 <https://zenodo.org/record/5748659#.YahTJL1BxQI>
-
-## Discussion
-
-The AR and VR environments are interactive with the Oculus VR work
-employing *Oculus Quest* hand tracking, the *YouTubeVR* version using
-head-tracking, and the AR work utilising mobile interaction on the
-*EyeJack* AR app. These different approaches cater for world building
-(VR) versus place making (AR). Each version is interactive in a
-different way, the *YouTubeVR* version is interactive through its
-head-tracking which changes according to where the audience member looks
-and audience members are encouraged to walk around the space to change
-their perception of the space; the impact of this is a feeling of
-immersivity, the effect is a total feeling of being there. The *Oculus*
-version is more interactive than the *YouTubeVR* version, as it builds
-upon it; head-tracking is used in both, however hand-tracking is only
-used in the Oculus version. The impact is that the audience member
-controls the playback order of different areas triggered by the
-proximity of the hand-tracking to each of the four vases in the Oculus
-version, the effect is a gamified musical experience for the audience
-member. The AR version is interactive through the singer physically
-guiding the audience member into the performance hall and prompting them
-to scan a poster to download the AR app, the impact is a smooth
-transition into the live AR experience, the impact is a feeling of
-immersiveness in a hybrid augmented performance world, the effect is
-being transported into a digital opera world.
+# Conclusions
 
 # References
 
