@@ -577,7 +577,7 @@ performance video proof of concept is included in the Folio.
 The AR 11 target images are painted in *Tilt Brush* and the QR codes are
 printed out and stuck on music stands for the forthcoming opera
 performance at BLOOM Festival. The target images overlay moving virtual
-images which are triggered with the spectators *EyeJack* mobile AR app:
+images which are triggered with the spectator's *EyeJack* mobile AR app.
 
 ![Images and QR codes from AR Artemis](./media/image15.png){ width=50% }
 
@@ -591,9 +591,9 @@ in my perspective from the get-go by prototyping in VR in real-time;
 this results in a cyclical artistic practice process in action formula
 for creating new opera work. 
 
-- Audio implementation in the Oculus version of Artemis DOI: 10.5281/zenodo.5748640 URL: <https://zenodo.org/record/5748640#.YahLNb1BxQI>
-- Artemis DOI: 10.5281/zenodo.5748649 URL: <https://zenodo.org/record/5748649#.YahO0L1BxQI>
-- Artemis Mi amor la luna VR: DOI: 10.5281/zenodo.5748659 <https://zenodo.org/record/5748659#.YahTJL1BxQI>
+- Audio implementation in the Oculus version of Artemis [10.5281/zenodo.5748640](https://doi.org/10.5281/zenodo.5748640) 
+- Artemis DOI: [10.5281/zenodo.5748649](https://zenodo.org/record/5748649)
+- Artemis Mi amor la luna VR: DOI: [10.5281/zenodo.5748659](https://zenodo.org/record/5748659)
 
 The AR and VR environments are interactive with the Oculus VR work
 employing *Oculus Quest* hand tracking, the *YouTubeVR* version using
@@ -643,7 +643,6 @@ My research compares the realisation of the same operatic text over
 various mediums as a vehicle for comparing the impact of different XR
 technologies on the process of opera creation from a composer's
 perspective.
-
 The implementation of these new workflows is documented through the
 design of models such as Figure 5 and Figure 6; these are visualisations
 of the same process outlined via two different lenses to explain how
@@ -726,6 +725,12 @@ height="3.6268657042869643in"}
 <!-- TODO: relabel this as a different number -->
 
 # Conclusions
+
+In conclusion, this research aimed to highlight the steps undertaken to utilise self-experiential iterative prototyping in the creation of three different virtual reality and augmented reality versions of a new opera, namely Artemis. The research outcomes included three versions and multiple iterations of the opera Artemis. The first version was created in Unity3D for viewing in the Oculus Quest virtual reality headset. The second version was created using Tilt Brush and Adobe Premiere Pro and deployed via YouTube VR. The third version was a live augmented reality experience developed to create a staging of the original opera.
+Self-experiential prototyping was employed to create each opera version's compositions and immersive environments. The research outputs were new models for self-experiential prototyping and screenshots; video and audio works were included as the creative output. The techniques used in the development of the spatial sound in Artemis implemented with FMOD and Unity3D were discussed from the point of view of a composer-designer. The key takeaway was that the use of autoethnography, problem statements, and discussion of effective extended reality creation techniques and implementation resulted in the creation of a rich new body of work. 
+The symbiotic relationship between VR development and music creation and implementation was explored. Different lenses were used as a means to explain the various hats that the composer-designer wore. This research was a cyclical artistic practice process in action formula for creating new extended reality music works. 
+The study explained the iterative steps employed and how new technologies were utilised. Comparisons of the interactivity of the three different versions of Artemis were included in this research project.
+
 
 # References
 
