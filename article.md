@@ -40,10 +40,10 @@ papersize: a4
 classoption: 12pt
 secnumdepth: 3
 reference-section-title: 'References'
-year: 2022
-volume: 38
+year: 2023
+volume: 39
 number: 1
-article-no: 6
+article-no: 1
 date: '2021-12-02'
 accepted-date: '2023-04-14'
 published-date: 'YYYY-MM-DD'
