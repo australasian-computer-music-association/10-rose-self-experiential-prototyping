@@ -161,17 +161,17 @@ recording of the entire opera into 4 parts and mapped each composition
 to a different vase for the Oculus version, essentially mapping audio to
 objects as sound sources.
 
-![Vase Amphora and audio source set up for Licht und Liebe screenshot](./media/image1.png){ width=50% }
+![Vase Amphora and audio source set up for Licht und Liebe screenshot](./media/image1.jpg){ width=50% }
 
-![Vase Hydria and audio source set up for the Winter duet screenshot](./media/image2.png){ width=50% }
+![Vase Hydria and audio source set up for the Winter duet screenshot](./media/image2.jpg){ width=50% }
 
-![Vase VoluteKrater and Audio source set up for Mi amor la luna screenshot](./media/image3.png){ width=50% }
+![Vase VoluteKrater and Audio source set up for Mi amor la luna screenshot](./media/image3.jpg){ width=50% }
 
-![Cuckoo foley screenshot](./media/image4.png){ width=50% }
+![Cuckoo foley screenshot](./media/image4.jpg){ width=50% }
 
-![Artemis *Unity3D* skybox screenshot](./media/image5.PNG){ width=50% }
+![Artemis *Unity3D* skybox screenshot](./media/image5.jpg){ width=50% }
 
-![Game object hierarchy set up screenshot](./media/image6.PNG){ width=50% }
+![Game object hierarchy set up screenshot](./media/image6.jpg){ width=50% }
 
 I wrote each corresponding piece during this process, drawing upon the
 visual aspects and utilising word-painting, highlighting the different
@@ -184,13 +184,12 @@ The works reflected the following rationale, scale and scope:
 
 *Artemis* comprises arias and duets utilising original German, English
 and Spanish libretto, with the mezzo-soprano as the central character.
-
-In conclusion, *Artemis* is in the XR art experience category, the
+This work is in the XR art experience category, the
 definitions of XR art and games are split in Screen Australia, thus I am
 drawing inspiration from video games, and XR art experiences are
 leveraged for *Artemis*.
 
-<!-- ![](./media/image5.PNG){width="3.216418416447944in"
+<!-- ![](./media/image5.jpg){width="3.216418416447944in"
 height="2.689283683289589in"} -->
 
 The Oculus version of *Artemis* entails users roaming a plane containing
@@ -286,8 +285,7 @@ entries included the elements used in each prototype. For example,
 learning which *Unity3D* software workflow works best for prototyping:
 "including one of the *Artemis* rehearsal mp3 files. Firstly building
 the models and text in *Tilt Brush*, then importing these fbx model
-files into *Unity*3D utilising tilt-poly-toolkit-v1.0.4.unitypackage
-Releases · mwellck/tilt-poly-toolkit-unity (github.com).This prototype
+files into *Unity*3D utilising tilt-poly-toolkit-v1.0.4.unitypackage. This prototype
 is a stationary experience with one audio source playing as the
 soundtrack, a starry skybox complements the *Tilt Brush* models".
 
@@ -302,7 +300,7 @@ project".
 
 ### VR Test 15 April
 
-![Screenshot from VR Test 15 April](./media/image7.png){ width=80% }
+![Screenshot from VR Test 15 April](./media/image7.jpg){ width=80% }
 
 #### Idea generation
 
@@ -390,7 +388,7 @@ online manual regarding head-tracking.
 
 ### 21 April Prototyping Test 1
 
-![Screenshot from 21 April Prototyping Test 1](./media/image8.png){ width=80% }
+![Screenshot from 21 April Prototyping Test 1](./media/image8.jpg){ width=80% }
 
 #### Initial development
 
@@ -429,7 +427,7 @@ the next prototyping phase is to try out this problem.
 
 #### Initial development
 
-I wrote down the problem Statement: the audio is not reactive.
+I wrote down the problem statement: the audio is not reactive.
 
 #### Reflection and refinement
 
@@ -456,7 +454,7 @@ to the following:
 
 ### 21 April Prototyping Test 3
 
-![Screenshot from 21 April Prototyping Test 3](./media/image9.png){ width=80% }
+![Screenshot from 21 April Prototyping Test 3](./media/image9.jpg){ width=80% }
 
 #### Initial development
 
@@ -498,7 +496,7 @@ Foundation, 2021).
 
 ### 17 May prototype
 
-![Screenshot from 17 May prototype](./media/image10.jpeg){ width=80% }
+![Screenshot from 17 May prototype](./media/image10.jpg){ width=80% }
 
 #### Initial development
 
@@ -540,7 +538,6 @@ with the *Oculus Quest*, the tracking works well, and I can see the
 virtual hands. The hands pass through the virtual objects. I need to add
 physics colliders to the virtual hands or all the game objects for the
 next prototype.
-
 I also learnt to make sure that the *SteamVR* app is open and running on
 the Alienware to track and play the experience on the Quest untethered
 successfully.
@@ -551,7 +548,7 @@ I painted in the 360-degree VR environment in *Tilt Brush* for VR for
 the YouTubeVR version of *Artemis*. In *iteration #3* of the *YouTubeVR*
 experience I painted the tree of life to represent Artemis' life (Figure 11). 
 
-![The tree of life representing Artemis' life in YouTubeVR Artemis](./media/image11.png){ width=50% }
+![The tree of life representing Artemis' life in YouTubeVR Artemis](./media/image11.jpg){ width=50% }
 
 Colour changes were added to the render in *Adobe Premiere Pro* to add
 variation to the footage for each aria and duet. 
@@ -559,11 +556,11 @@ Blue tones were used for winter (Figure 12), I made the footage black and white 
 I added orange tones to the footage in *Adobe* *Premiere Pro* for
 autumn (Figure 14).
 
-![YouTubeVR Artemis with blue tones used for winter](./media/image12.png){ width=50% }
+![YouTubeVR Artemis with blue tones used for winter](./media/image12.jpg){ width=50% }
 
-![YouTubeVR Artemis: the nightscape for the aria to the moon 'Mi amor la luna'](./media/image13.png){ width=50% }
+![YouTubeVR Artemis: the nightscape for the aria to the moon 'Mi amor la luna'](./media/image13.jpg){ width=50% }
 
-![YouTubeVR Artemis with orange tones for autumn ](./media/image14.png){ width=50% }
+![YouTubeVR Artemis with orange tones for autumn ](./media/image14.jpg){ width=50% }
 
 ## AR Artemis
 
@@ -579,7 +576,7 @@ printed out and stuck on music stands for the forthcoming opera
 performance at BLOOM Festival. The target images overlay moving virtual
 images which are triggered with the spectator's *EyeJack* mobile AR app.
 
-![Images and QR codes from AR Artemis](./media/image15.png){ width=50% }
+![Images and QR codes from AR Artemis](./media/image15.jpg){ width=50% }
 
 ## Video and audio examples
 
@@ -677,7 +674,7 @@ the *Unity3D* project and getting an expert to try out the VR experience
 in a headset such as *Oculus Quest 1*. Figure 5 is refined into the
 cyclical model of figure 6.
 
-![*Figure 5.* A structured and sequential self-experiential prototyping model of the prototyping process steps for Oculus prototyping.](./media/image16.png){width="6.290785214348206in"
+![*Figure 5.* A structured and sequential self-experiential prototyping model of the prototyping process steps for Oculus prototyping.](./media/image16.jpg){width="6.290785214348206in"
 height="3.9051891951006126in"}
 
 Figure 6 details my journey through each stage of self-experiential
@@ -719,7 +716,7 @@ constructive feedback is then used as a new problem statement for the
 next iteration of testing and leads to step 1.
 
 ![*Figure 6.* Doing self-experiential prototyping: an iterative cyclic
-model](./media/image17.png){width="5.128836395450569in"
+model](./media/image17.jpg){width="5.128836395450569in"
 height="3.6268657042869643in"}
 
 <!-- TODO: relabel this as a different number -->
