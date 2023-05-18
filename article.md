@@ -46,7 +46,7 @@ number: 1
 article-no: 1
 date: '2021-12-02'
 accepted-date: '2023-04-14'
-published-date: 'YYYY-MM-DD'
+published-date: '2023-05-18'
 keywords: Opera, composition, technology, music, sound implementation, spatial sound, virtual reality, human-computer interaction, computer music.
 ---
 
